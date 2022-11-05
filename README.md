@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS-GraphQL
 
-## Getting Started
+> Site com mapa interativo onde o usuário poderá clicar em um país e visualizar informações detalhadas sobre o mesmo.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+Esse projeto é da autoria do professor <a href="https://willianjusten.com.br/">Willian Justen</a> apresentada no <a href="https://www.youtube.com/playlist?list=PLlAbYrWSYTiPlXj6USip_lCPzONUATJbE">curso</a> Aprenda NextJS, GraphQL e Leaflet na prática!
+
+Meu objetivo com este projeto é para aprender NextJS e me sentir mais confortável com a ferramenta. Além do NextJS o projeto utiliza de GraphQL e Leaflet, que não é o meu foco mas coisa nova é sempre bem-vinda. Também está sendo usado o Jest e React Testing Library para garantir a qualidade das funcionalidades. Essas duas ferramentas já me foram apresentadas antes mas tive pouco contato, então será de grande utilidade o uso delas aqui. 
+
+## 🚀 Instalando NextJS-GraphQL
+
+Para instalar o NextJS-GraphQL, siga estas etapas:
+
+
+```
+git clone https://github.com/caiocastrofrs/NextJS-GraphQL.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+Acesse localhost:3000
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Licença
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esse projeto é da autoria do professor <a href="https://willianjusten.com.br/">Willian Justen</a> apresentada no <a href="https://www.youtube.com/playlist?list=PLlAbYrWSYTiPlXj6USip_lCPzONUATJbE">curso</a> Aprenda NextJS, GraphQL e Leaflet na prática!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
